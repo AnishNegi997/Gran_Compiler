@@ -1,0 +1,8 @@
+// Test different types of screenit statements
+screenit "Hello from Gran!";
+var x = 42;
+screenit x;
+var y = 10 + 5;
+screenit y;
+screenit "The sum is:";
+screenit x + y; 

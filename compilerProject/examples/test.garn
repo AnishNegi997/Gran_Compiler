@@ -1,0 +1,34 @@
+// Function definition
+func factorial(n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+// Main function
+func main() {
+    // Print statements
+    print "Factorial of 5:";
+    print factorial(5);
+
+    // If statement
+    if (true) {
+        print "This is true!";
+    } else {
+        print "This is false!";
+    }
+
+    // While loop
+    while (true) {
+        print "Looping...";
+        if (false) {
+            break;
+        }
+    }
+
+    // For loop
+    for (var i = 0; i < 5; i = i + 1) {
+        print i;
+    }
+} 

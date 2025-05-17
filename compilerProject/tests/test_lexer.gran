@@ -1,0 +1,44 @@
+<- This is a multiline comment
+   testing the lexer implementation
+   with various features ->
+   
+-> This is a single line comment
+
+int x = 10;
+float y = 2.5;
+string name = "Hello World";
+bool flag = true;
+
+if (x > 5) then
+    screenit "x is greater than 5";
+else
+    screenit "x is less than or equal to 5";
+
+while (x < 20) {
+    x += 1;
+    screenit x;
+}
+
+def add(int a, int b) {
+    give a + b;
+}
+
+int result = add(5, 10);
+screenit result;
+
+string str1 = "Hello";
+string str2 = "World";
+
+if (str1 === str2) then
+    screenit "Strings are equal";
+else if (str1 ?= str2) then
+    screenit "Strings have equal length";
+else
+    screenit "Strings are different";
+
+if (x > 5 AND y < 10) then
+    screenit "Both conditions are true";
+else if (x > 5 OR y < 10) then
+    screenit "At least one condition is true";
+else
+    screenit "No conditions are true"; 

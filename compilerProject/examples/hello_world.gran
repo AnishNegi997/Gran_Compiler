@@ -1,0 +1,11 @@
+-> A simple hello world program in Gran
+
+string message = "Hello, World!";
+screenit message;
+
+-> Taking user input
+intake "Enter your name: ";
+string name;
+intake name;
+
+screenit "Welcome, " + name + "!"; 
